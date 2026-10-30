@@ -3,3 +3,5 @@
 .actions{gap:12px;flex-wrap:wrap}
 
 .toolbar{flex-wrap:wrap}
+
+.index-controls{margin-bottom:12px}.workspace.index-collapsed{grid-template-columns:minmax(0,1fr)}
