@@ -5,3 +5,5 @@
 .toolbar{flex-wrap:wrap}
 
 .index-controls{margin-bottom:12px}.workspace.index-collapsed{grid-template-columns:minmax(0,1fr)}
+
+#correct-overlay{position:fixed;inset:0;z-index:1000;display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(246,248,247,.88);pointer-events:none;color:#e34848;animation:correct-appear .18s ease-out}.correct-circle{font-size:min(65vw,65vh);font-weight:700;line-height:1.1}.correct-message{font-size:clamp(24px,5vw,44px);font-weight:750;letter-spacing:.15em}@keyframes correct-appear{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:scale(1)}}@media(prefers-reduced-motion:reduce){#correct-overlay{animation:none}}
